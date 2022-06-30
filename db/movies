@@ -1,0 +1,251 @@
+[{
+  "_id": {
+    "$oid": "62ba0d27b73a4d89b0195cca"
+  },
+  "title": "Spectre",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656547200000"
+    }
+  },
+  "category": "action",
+  "posterPath": "https://source.unsplash.com/wMkaMXTJjlQ",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656360231735"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656360231735"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ba0dac9d6872acb61c3cee"
+  },
+  "title": "Spider Man",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656547200000"
+    }
+  },
+  "category": "action",
+  "posterPath": "https://source.unsplash.com/PXjQaGxi4JA",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656360364093"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656360364093"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ba0e319d6872acb61c3cf1"
+  },
+  "title": "Batman III",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656460800000"
+    }
+  },
+  "category": "action",
+  "posterPath": "https://source.unsplash.com/meqVd5zwylI",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656360497552"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656360497552"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ba0e8c9d6872acb61c3cf4"
+  },
+  "title": "Suicide Squad",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1657238400000"
+    }
+  },
+  "category": "horror",
+  "posterPath": "https://source.unsplash.com/7ya3l_JdHpM",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656360588402"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656360588402"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ba0f869d6872acb61c3cf6"
+  },
+  "title": "Moulin Rouge",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1657324800000"
+    }
+  },
+  "category": "drama",
+  "posterPath": "https://source.unsplash.com/-OpEshnHkWk",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656360838118"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656360838118"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ba11239d6872acb61c3cf8"
+  },
+  "title": "Road Side",
+  "rating": "4",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1654905600000"
+    }
+  },
+  "category": "mystery",
+  "posterPath": "https://source.unsplash.com/CiUR8zISX60",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656361251571"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656361251571"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bb3822fb079ac7ec4095f5"
+  },
+  "title": "Joker",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656547200000"
+    }
+  },
+  "category": "thriller",
+  "posterPath": "https://source.unsplash.com/cqtw4QCfbQg",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656436770121"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656436770121"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bb44f8fb079ac7ec409605"
+  },
+  "title": "Jurassic Park",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656547200000"
+    }
+  },
+  "category": "comedy",
+  "posterPath": "https://source.unsplash.com/1RyKywJ9lAY",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656440056435"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656440056435"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bb4854fb079ac7ec409610"
+  },
+  "title": "Feed and Grain",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1656460800000"
+    }
+  },
+  "category": "thriller",
+  "posterPath": "https://source.unsplash.com/iwfHhOZLVMU",
+  "isFavorite": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656440916992"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656440916992"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bb4a15fb079ac7ec409618"
+  },
+  "title": "Hollywood",
+  "rating": "5",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1657324800000"
+    }
+  },
+  "category": "mystery",
+  "posterPath": "https://source.unsplash.com/aNrRsB2wLDk",
+  "isFavorite": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1656441365079"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1656441365079"
+    }
+  },
+  "__v": 0
+}]
