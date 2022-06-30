@@ -103,7 +103,7 @@ mongodb://localhost:27017
 ```bash
 1. cd db
 2. import movies and users collection using MongoDB Compass
-
+```
 ### Or you can add initial user using below API
 ```bash
 url: http://localhost:5000/users/signup
