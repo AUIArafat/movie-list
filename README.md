@@ -6,18 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+$ cd client
+$ npm install
+$ npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -46,6 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Installation
 
 ```bash
+$ cd server
 $ npm install
 ```
 
@@ -62,19 +62,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
 ## License
 
 Nest is [MIT licensed](LICENSE).
@@ -85,8 +72,48 @@ Nest is [MIT licensed](LICENSE).
 
 ### Run MongoDB Community Edition on Ubuntu
 
-#### Start MongoDB.
-
+#### 1. Start MongoDB.
 ```bash
 sudo service mongod start
 ```
+
+#### 2. Verify that MongoDB has started successfully
+```bash
+sudo service mongod status
+```
+
+#### 3. Stop MongoDB.
+```bash
+sudo service mongod stop
+```
+
+#### 4. Restart MongoDB.
+```bash
+sudo service mongod restart
+```
+
+### Connection URI
+```bash
+mongodb://localhost:27017
+```
+
+### Database Name: moviedb
+
+### Setup Dummy Data using MongoDB Compass
+```bash
+1. cd db
+2. import movies and users collection using MongoDB Compass
+
+### Or you can add initial user using below API
+```bash
+url: http://localhost:5000/users/signup
+method: POST
+body: {
+    "username":"Admin",
+    "password":"123456"
+}
+```
+
+### Then you can add movies from [UI](http://localhost:3000/movies/add)
+
+
