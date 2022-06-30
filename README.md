@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with client side setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
@@ -39,8 +39,54 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Getting Started with server side setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
+
+# Getting Started with database setup
+
+## In this we are using MongoDB. Please check this [Link](https://www.mongodb.com/docs/manual/administration/install-community/) to setup your mongodb locally
+
+### Run MongoDB Community Edition on Ubuntu
+
+#### Start MongoDB.
+
+```bash
+sudo service mongod start
+```
